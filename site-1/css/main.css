@@ -804,3 +804,30 @@ hr
 
     color: rgba(217,6,81,1);
 }
+
+@media screen and (max-width: 835px)
+{
+    .block-eight__content
+    {
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    .block-eight__select
+    {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 576px)
+{
+    .block-eight__footer__menu__item
+    {
+        width: 100%;
+        margin: 5px;
+        padding: 15px;
+    }
+    .block-eight__footer__menu
+    {
+        flex-flow: column nowrap;
+    }
+}
