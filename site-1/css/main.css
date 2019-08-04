@@ -57,6 +57,7 @@ a
 
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
+
 .block-one__nav
 {
     display: flex;
