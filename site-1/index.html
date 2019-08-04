@@ -10,7 +10,7 @@
     <script src="js/main.js"></script>
 </head>
 
-<body>
+<body onresize="clearProperties()">
     <div id="wrapper">
         <header class="block-one">
             <div class="content">
@@ -144,6 +144,40 @@
                 <div class="block-six__button">
                     <input type="text" class="block-six__button__text" placeholder="Your email adress">
                     <input type="submit" class="block-six__button__click" value="Subscribe">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="block-seven">
+            <div class="content">
+                <div class="block-seven__content">
+                    <img class="block-seven__icon" src="img/block-seven_icon.png" alt="App Icon">
+                    <h2 class="block-seven__heading">Download the app </h2>
+                    <p class="block-seven__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+                    <img class="block-seven__icon" src="img/block-seven_shop.png" alt="Shop Icon">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="block-eight">
+            <div class="content">
+                <div class="block-eight__content">
+                    <ul class="block-eight__footer__menu">
+                        <li class="block-eight__footer__menu__item">ABOUT</li>
+                        <li class="block-eight__footer__menu__item">FAQ</li>
+                        <li class="block-eight__footer__menu__item">SUPPORT</li>
+                        <li class="block-eight__footer__menu__item">BLOG</li>
+                        <li class="block-eight__footer__menu__item">DOWNLOAD</li>
+                    </ul>
+
+                    <select name="Language" class="block-eight__select">
+                        <option value="english" class="block-eight__select__item"> English </option>
+                        <option value="russian" class="block-eight__select__item"> Russian</option>
+                    </select>
                 </div>
             </div>
         </section>
