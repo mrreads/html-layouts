@@ -754,3 +754,10 @@ hr
     border-radius: 50px;
     background-color: #F8F8F8;
 }
+
+.block-two__content__heading b, .block-three__content__heading b, .block-four__heading b, .block-six__heading b, .block-seven__heading b
+{
+    padding-left: 10px;
+
+    color: rgba(217,6,81,1);
+}
