@@ -22,6 +22,13 @@ body
     font-family: "Lato", sans-serif;
 }
 
+a
+{
+    display: inline-block;
+
+    text-decoration: none;
+}
+
 .content
 {
     max-width: 1440px;
@@ -527,5 +534,128 @@ hr
     .block-four__item__text
     {
         text-align: center;
+    }
+}
+
+.block-six
+{
+    display: flex;
+
+    margin-top: 100px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.block-six__heading
+{
+    font-size: 60px;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    color: black;
+}
+
+.block-six__text
+{
+    margin-bottom: 35px;
+
+    text-align: center;
+
+    color: #808080;
+}
+
+.block-six__button
+{
+    position: relative;
+
+    display: flex;
+
+    max-width: 450px;
+    margin: 0 auto;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.block-six__button__text
+{
+    font-size: 18px;
+
+    position: absolute;
+    left: 0;
+
+    margin: 50px 0;
+    padding: 15px 95px 15px 30px;
+
+    cursor: pointer;
+
+    color: #808080;
+    border: 0;
+    border-radius: 50px;
+    background-color: #F8F8F8;
+}
+
+.block-six__button__click
+{
+    font-size: 18px;
+
+    position: absolute;
+    right: 0;
+
+    margin: 50px 0;
+    padding: 15px 45px;
+
+    cursor: pointer;
+    transition: 1s all;
+
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    background: linear-gradient(0deg, rgba(235,64,44,1) 0%, rgba(217,6,81,1) 100%);
+}
+
+.block-six__button__click:hover
+{
+    transform: scale(1.1) rotate(2deg);
+}
+
+@media screen and (max-width: 992px)
+{
+    .block-six
+    {
+        margin-top: unset;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+    .block-six__button__text
+    {
+        font-size: 16px;
+
+        padding: 17px 45px 15px 30px;
+    }
+    .block-six__button__click
+    {
+        font-size: 16px;
+
+        padding: 17px 10px;
+    }
+    .block-six__heading
+    {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .block-six__button__text
+    {
+        font-size: 12px;
+
+        padding: 18px 0px 18px 15px;
     }
 }
