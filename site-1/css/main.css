@@ -38,12 +38,25 @@ a
 
 .block-one
 {
+    position: relative;
+
     color: white;
+}
+
+.block-one::before
+{
+    position: absolute;
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+
+    content: "";
+
     background: linear-gradient(0deg, rgba(235,64,44,1) 0%, rgba(217,6,81,1) 100%);
 
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
-
 .block-one__nav
 {
     display: flex;
@@ -734,11 +747,34 @@ hr
 
 .block-eight__footer__menu__item
 {
+    position: relative;
+
     margin: 0 5px;
     padding: 5px 15px;
 
     cursor: pointer;
     text-align: center;
+}
+
+
+.block-eight__footer__menu__item::before
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 0%;
+    height: 1px;
+
+    content: "";
+    transition: 0.3s all;
+
+    background-color: black;
+}
+
+.block-eight__footer__menu__item:hover::before
+{
+    width: 100%;
 }
 
 .block-eight__select
