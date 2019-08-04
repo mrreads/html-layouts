@@ -73,6 +73,8 @@ a
 {
     font-size: 48px;
     font-weight: bold;
+
+    cursor: pointer;
 }
 .block-one__nav__menu
 {
@@ -101,7 +103,7 @@ a
     bottom: 0;
 
     width: 0%;
-    height: 2px;
+    height: 1px;
 
     content: "";
     transition: 0.3s all;
@@ -696,7 +698,7 @@ hr
     {
         font-size: 12px;
 
-        padding: 18px 0px 18px 15px;
+        padding: 18px 70px 18px 15px;
     }
 }
 
