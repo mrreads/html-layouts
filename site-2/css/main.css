@@ -18,7 +18,7 @@ body, #wrapper
     min-width: 320px;
 }
 
-#content
+.content
 {
     width: 100%;
     max-width: 1440px;
