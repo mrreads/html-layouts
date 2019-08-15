@@ -128,7 +128,7 @@ body
     padding: 10px;
 
     cursor: pointer;
-    transition: 0.7 s all;
+    transition: 0.7s all;
 
     opacity: 0.3;
 }
@@ -216,6 +216,10 @@ body
 
 @media screen and (max-width: 699px)
 {
+    .slider-button
+    {
+        font-size: 36px;
+    }
     .content
     {
         padding: 50px 15px;
@@ -232,6 +236,10 @@ body
 
 @media screen and (max-width: 599px)
 {
+    .slider-button
+    {
+        font-size: 26px;
+    }
     .nav-menu_menu
     {
         display: none;
@@ -253,7 +261,7 @@ body
     .header__content button
     {
         width: 180px;
-        margin: 0;
+        margin: 16px 0;
     }
     .nav-menu__logo
     {
