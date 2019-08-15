@@ -6,8 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SITE</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" defer></script>
 </head>
-<body>
-    
+<body onresize="clearProperties()">
+    <header class="header">
+        <div class="content">
+            <div class="header__nav-menu">
+                <h1 class="nav-menu__logo">Alecto <span>.</span></h1>
+                <ul class="nav-menu_menu">
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>WORK</li>
+                    <li>SERVICES</li>
+                    <li>BLOG</li>
+                </ul>
+                <div class="menu-button" onclick="navbarSlide()">|||</div>
+            </div>
+
+            <div class="header__content">
+                <div class="slider-button">&#60;</div>
+                <div class="content__main">
+                    <h2><span>Alecto</span> is simple PSD Template</h2>
+                    <p>Nam varius accumsan elementum aliquam</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="slider-button">&#62;</div>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
